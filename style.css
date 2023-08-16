@@ -1,0 +1,118 @@
+ @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,800;1,9..40,100;1,9..40,800&family=Kanit:ital,wght@0,400;1,300&display=swap');
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', Helvetica, sans-serif;
+    box-sizing: content-box;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    background: #a9afb4;
+    display: flex;
+    /*Eixo x*/
+    justify-content: center;
+    /*Eixo*/
+    align-items: center;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px 20px 10px;
+    background: #c7c5cc;
+    border-radius: 30px;
+    width: 30%;
+} 
+
+.card:hover{
+
+    box-shadow: 0px 10px 40px #301919; 
+}
+
+h1{
+    color: rgb(37, 36, 139);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+.textfield{
+   
+    width: 100%;
+    display: flex;
+    flex-direction: inline;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 0;    
+    justify-content: space-between;
+}
+
+.textfield > i{
+    font-size: 19pt;
+    padding: 5px 5px 5px 0;
+
+    
+
+}
+
+.textfield > input{
+    width: 100%;
+    border: #5638a7;
+    border-radius: 10px;
+    padding: 15px;
+    background:  #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 30px #00000056 ;
+    outline: none;
+    border: 2px solid transparent;
+}
+
+.textfield > input::placeholder{
+    color: #acafafde;
+}
+
+input:focus{
+    border-color: #7012eb;
+}
+
+
+button{
+    width: 95%;
+    background-color: rgb(80, 134, 214);
+    color: #2b134b;
+    align-items: center;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    outline: none;
+    letter-spacing: 4px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #96252552;
+
+}
+
+button:hover{
+    transition: background 1s;
+    background: rgb(14, 197, 142);
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
